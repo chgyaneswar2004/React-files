@@ -16,10 +16,13 @@ const Startproject = ({toggle}) => {
 export default Startproject
 
 const Container = styled.div`
+  
   max-width: 1180px;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 
 .content{
   h1{
